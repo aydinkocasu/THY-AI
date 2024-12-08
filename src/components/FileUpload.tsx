@@ -39,7 +39,7 @@ const FileUploadComponent: React.FC<FileProps> = ({ callback }) => {
 		try {
 			//
 			const { data: { text } } = await Tesseract.recognize(
-				imageUrl, ['eng', 'tur'],
+				imageUrl, 'eng+tur',
 				{
 					logger: m => console.log(m)
 				}
