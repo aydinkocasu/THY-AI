@@ -1,6 +1,6 @@
 # THY-AI
 
-## [LIVE DEMO][https://thy-ai.vercel.app/]
+## [LIVE DEMO](https://thy-ai.vercel.app/)
 
 A web application that allows users to upload a Image file, and extract text from the Image using **Tesseract.js** for OCR, and **OpenAI** for enhanced text processing.
 
