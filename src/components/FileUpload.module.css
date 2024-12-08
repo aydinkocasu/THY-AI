@@ -1,0 +1,23 @@
+/* components/FileUpload.module.css */
+
+.file-upload {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+input[type="file"] {
+	margin: 10px 0;
+}
+
+.image-preview {
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
