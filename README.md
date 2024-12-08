@@ -1,5 +1,7 @@
 # THY-AI
 
+## [LIVE DEMO][https://thy-ai.vercel.app/]
+
 A web application that allows users to upload a Image file, and extract text from the Image using **Tesseract.js** for OCR, and **OpenAI** for enhanced text processing.
 
 ## Architecture
@@ -44,7 +46,7 @@ Tesseract Worker: If you're using a local worker for Tesseract.js, provide the p
 Example .env file:
 
 ```env
-REACT_APP_OPENAI_API_KEY=your-openai-api-key-here
+OPENAI_API_KEY=your-openai-api-key-here
 ```
 
 ### 4. Run the Application
